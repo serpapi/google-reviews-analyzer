@@ -1,8 +1,9 @@
 <div align="center">
-  <a href="">[![MIT License][license-shield]][license-url]</a>
+
+  [![License: MIT](https://img.shields.io/github/license/serpapi/google-reviews-analyzer)](https://github.com/serpapi/review-analyzer/blob/master/LICENSE)
+
 </div>
-<br />
-<br />
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/logo.png" width="120" alt="Logo">
   <h3>Google Reviews Analyzer</h3>
@@ -60,3 +61,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 [license-shield]: https://img.shields.io/github/license/serpapi/google-reviews-analyzer
 [license-url]: https://github.com/serpapi/review-analyzer/blob/master/LICENSE
+
