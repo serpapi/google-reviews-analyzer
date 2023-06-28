@@ -1,13 +1,46 @@
-## Getting Started
+![Logo](https://github.com/serpapi/google-reviews-analyzer/tree/main/public/logo.png?raw=true)
 
-First, run the development server:
+![Sample](https://github.com/serpapi/google-reviews-analyzer/tree/main/public/sample.png?raw=true)
+
+Example Reults
+```
+1. Food Quality (👍): ⭐⭐⭐⭐⭐
+2. Service (👍): ⭐⭐⭐⭐
+3. Cleanliness (👎): ⭐⭐
+4. Price (👍): ⭐⭐⭐⭐
+5. Taste (👍): ⭐⭐⭐⭐⭐
+6. Portions (👍): ⭐⭐⭐⭐
+7. Variety (👍): ⭐⭐⭐
+8. Atmosphere (👍): ⭐⭐⭐⭐
+9. Value (👍): ⭐⭐⭐⭐
+10. Parking (👍): ⭐⭐⭐
+```
+
+## Prerequisite
+
+Before running the application, we have to get the necessary API key:
+1. Duplicate the file `.env.example` and rename it to `.env`
+2. We need 2 API keys from [SerpApi](https://serpapi.com/) and [OpenAI](https://platform.openai.com/) for `SERPAPI_KEY` and `OPENAI_API_KEY` respectively.
+
+## Installation
+
+First, install the dependencies
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Building Blocks
+
+- [Next.JS](https://nextjs.org/) - React framework for the web application
+- [Langchain](https://github.com/hwchase17/langchain) - Framework for the LLM
+- [OpenAI](https://openai.com/) - LLM provider
+- [SerpApi](https://serpapi.com/) - Data provider for the businesses reviews on Google. Related documentations: [Google Maps API](https://serpapi.com/google-maps-api) and [Google Maps Reviews API](https://serpapi.com/google-maps-reviews-api)
