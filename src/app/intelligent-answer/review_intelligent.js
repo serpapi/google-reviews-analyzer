@@ -2,6 +2,7 @@ import { OpenAI } from "langchain/llms/openai";
 import { loadSummarizationChain } from "langchain/chains";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import axios from "axios"
+import { PromptTemplate } from "langchain";
 
 const SERPAPI_KEY = process.env['SERPAPI_KEY']
 
@@ -46,15 +47,27 @@ export const intelligentlyAnalyseReview = async (dataId) => {
   if (!reviews) return
 
   const text = reviews.map((review) => {
-    return `Name: ${review.user.name}, total reviews given in platform by ${review.user.name}: ${review.user.reviews}, rating given by ${review.user.name}: ${review.rating},  date review given: ${review.date}, number of person who likes this review: ${review.likes}, comment given by ${review.user.name}: ${review.snippet}`
-  }).join("\n\n")
+    return `- ${review.snippet}`
+  }).join("\n")
+
+  const prompt = new PromptTemplate({ 
+    template: `Reviews:
+    {text}
+    
+    ---
+    Create 10 most common labels for these reviews and give rating of 1 to 5 ⭐, with 1 ⭐ being the lowest rating and 5 ⭐ being the highest rating, it should be based on the occurrence rate, and if the label is negative as 👎 or positive as 👍.
+    Example:
+    Label Name (positivity): ⭐ emoji
+    `,
+    inputVariables: ["text"] 
+  });
   
-  const model = new OpenAI({ temperature: 0.5 });
+  const model = new OpenAI({ model: "gpt-3.5-turbo-0613", temperature: 0.5 });
   const textSplitter = new RecursiveCharacterTextSplitter({ chunkSize: 1000 });
   const docs = await textSplitter.createDocuments([text]);
   
   // This convenience function creates a document chain prompted to summarize a set of documents.
-  const chain = loadSummarizationChain(model, { type: "map_reduce" });
+  const chain = loadSummarizationChain(model, { type: "map_reduce", combinePrompt: prompt });
   const res = await chain.call({
     input_documents: docs,
   });

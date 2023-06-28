@@ -11,7 +11,7 @@ export default function Home() {
   const [restaurantName, setRestaurantName] = useState("")
   const [loading, setLoading] = useState(false)
   const [businesses, setBusinesses] = useState([])
-  const [analyseDataId, setAnalyseDataId] = useState(null)
+  const [analyseBusiness, setAnalyseBusiness] = useState(null)
 
   const getBusinesses = async () => {
     if (!address || !restaurantName) return
@@ -48,11 +48,15 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-4 py-8">
-          {businesses.map(b => <BusinessItem key={b.place_id} onSeekingAnalyse={() => setAnalyseDataId(b.data_id)} {...b} />)}
+          {businesses.map(b => <BusinessItem key={b.place_id} onSeekingAnalyse={() => setAnalyseBusiness(b)} {...b} />)}
         </div>
       </div>
 
-      <AnalyseBusinessReview dataId={analyseDataId} onDismiss={() => setAnalyseDataId(null)} />
+      <AnalyseBusinessReview 
+        title={analyseBusiness?.title} 
+        dataId={analyseBusiness?.data_id} 
+        onDismiss={() => setAnalyseBusiness(null)} 
+      />
     </main>
   )
 }
