@@ -59,3 +59,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [Langchain](https://github.com/hwchase17/langchain) - Framework for the LLM
 - [OpenAI](https://openai.com/) - LLM provider
 - [SerpApi](https://serpapi.com/) - Data provider for the businesses reviews on Google. Related documentations: [Google Maps API](https://serpapi.com/google-maps-api) and [Google Maps Reviews API](https://serpapi.com/google-maps-reviews-api).
+
+## Future Improvements
+
+Quick analysis is fine, it helps you to understand the review as quick and intuitive as possible. But what if you can chat with it? Sort of like interviewing your customers. I believe we can get more in depth understanding out of it.
