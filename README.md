@@ -1,6 +1,6 @@
-![Logo](https://github.com/serpapi/google-reviews-analyzer/tree/main/public/logo.png?raw=true)
+![Logo](https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/logo.png)
 
-![Sample](https://github.com/serpapi/google-reviews-analyzer/tree/main/public/sample.png?raw=true)
+![Sample](https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/sample.png)
 
 Example Reults
 ```
