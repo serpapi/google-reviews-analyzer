@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/logo.png" width="120" alt="Logo">
-  <h3>Google Reviews Analyzer</h3>
+  <h2>Google Reviews Analyzer</h2>
   <p>Understand what people are talking about your business</p>
 </div>
 
