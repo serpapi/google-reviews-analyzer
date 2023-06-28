@@ -58,8 +58,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [Next.JS](https://nextjs.org/) - React framework for the web application
 - [Langchain](https://github.com/hwchase17/langchain) - Framework for the LLM
 - [OpenAI](https://openai.com/) - LLM provider
-- [SerpApi](https://serpapi.com/) - Data provider for the businesses reviews on Google. Related documentations: [Google Maps API](https://serpapi.com/google-maps-api) and [Google Maps Reviews API](https://serpapi.com/google-maps-reviews-api)
-
-[license-shield]: https://img.shields.io/github/license/serpapi/google-reviews-analyzer
-[license-url]: https://github.com/serpapi/review-analyzer/blob/master/LICENSE
-
+- [SerpApi](https://serpapi.com/) - Data provider for the businesses reviews on Google. Related documentations: [Google Maps API](https://serpapi.com/google-maps-api) and [Google Maps Reviews API](https://serpapi.com/google-maps-reviews-api).
