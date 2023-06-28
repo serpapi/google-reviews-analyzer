@@ -11,12 +11,13 @@
 
 ## Introduction
 
-It gather the reviews of businesses using [SerpApi](https://serpapi.com/). And then structure the data to feed into [OpenAI](https://openai.com/) LLM with the use of [Langchain](https://github.com/hwchase17/langchain) LLM framework.
+It gather the reviews of businesses using [SerpApi](https://serpapi.com/). And then structure the data to feed into [OpenAI](https://openai.com/) LLM with the use of [Langchain](https://github.com/hwchase17/langchain) LLM framework. With custom prompting, we produce the result as below.
 
 ## Example Reults
 
 <img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/sample.png" width="500" alt="Logo">
 
+### Sample analysis
 ```
 1. Food Quality (👍): ⭐⭐⭐⭐⭐
 2. Service (👍): ⭐⭐⭐⭐
