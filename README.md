@@ -1,12 +1,12 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/logo.png" width="120" alt="Logo">
-  <h1>Google Reviews Analyzer</h1>
+  <h3>Google Reviews Analyzer</h3>
   <p>Understand what people are talking about your business</p>
 </div>
 
 ## Example Reults
 
-<img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/sample.png" width="300" alt="Logo">
+<img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/sample.png" width="500" alt="Logo">
 
 ```
 1. Food Quality (👍): ⭐⭐⭐⭐⭐
