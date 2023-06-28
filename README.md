@@ -1,8 +1,13 @@
-![Logo](https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/logo.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/logo.png" width="120" alt="Logo">
+  <h1>Google Reviews Analyzer</h1>
+  <p>Understand what people are talking about your business</p>
+</div>
 
-![Sample](https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/sample.png)
+## Example Reults
 
-Example Reults
+<img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/sample.png" width="300" alt="Logo">
+
 ```
 1. Food Quality (👍): ⭐⭐⭐⭐⭐
 2. Service (👍): ⭐⭐⭐⭐
