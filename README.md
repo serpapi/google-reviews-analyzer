@@ -1,8 +1,16 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/logo.png" width="120" alt="Logo">
-  <h2>Google Reviews Analyzer</h2>
-  <p>Understand what people are talking about your business</p>
+  <a href="">[![MIT License][license-shield]][license-url]</a>
 </div>
+<br />
+<br />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/logo.png" width="120" alt="Logo">
+  <h3>Google Reviews Analyzer</h3>
+</div>
+
+## Introduction
+
+It gather the reviews of businesses using [SerpApi](https://serpapi.com/). And then structure the data to feed into [OpenAI](https://openai.com/) LLM with the use of [Langchain](https://github.com/hwchase17/langchain) LLM framework.
 
 ## Example Reults
 
