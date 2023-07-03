@@ -2,7 +2,7 @@ import { OpenAI } from "langchain/llms/openai";
 import { loadSummarizationChain } from "langchain/chains";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import axios from "axios"
-import { PromptTemplate } from "langchain";
+import { PromptTemplate } from "langchain/prompts";
 
 const SERPAPI_KEY = process.env['SERPAPI_KEY']
 
