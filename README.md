@@ -13,6 +13,8 @@
 
 It gather the reviews of businesses using [SerpApi](https://serpapi.com/). And then structure the data to feed into [OpenAI](https://openai.com/) LLM with the use of [Langchain](https://github.com/hwchase17/langchain) LLM framework. With custom prompting, we produce the result as below.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fserpapi%2Fgoogle-reviews-analyzer&env=SERPAPI_KEY,OPENAI_API_KEY&envDescription=Signup%20for%20OpenAI(https%3A%2F%2Fplatform.openai.com%2F)%20and%20get%20free%20credits%20upon%20sign%20up%20with%20SerpApi(https%3A%2F%2Fserpapi.com%2F)&project-name=google-reviews-analyzer&repository-name=google-reviews-analyzer&redirect-url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdIbgvx2plCp-3-rD4D8peU8i1EsoL5muwhqKixobDrLhpLSA%2Fviewform%3Fusp%3Dsf_link)
+
 ## Example Reults
 
 <img src="https://raw.githubusercontent.com/serpapi/google-reviews-analyzer/main/public/sample.png" width="500" alt="Logo">
@@ -30,6 +32,12 @@ It gather the reviews of businesses using [SerpApi](https://serpapi.com/). And t
 9. Value (👍): ⭐⭐⭐⭐
 10. Parking (👍): ⭐⭐⭐
 ```
+
+## Launch it with Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fserpapi%2Fgoogle-reviews-analyzer&env=SERPAPI_KEY,OPENAI_API_KEY&envDescription=Signup%20for%20OpenAI(https%3A%2F%2Fplatform.openai.com%2F)%20and%20get%20free%20credits%20upon%20sign%20up%20with%20SerpApi(https%3A%2F%2Fserpapi.com%2F)&project-name=google-reviews-analyzer&repository-name=google-reviews-analyzer&redirect-url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdIbgvx2plCp-3-rD4D8peU8i1EsoL5muwhqKixobDrLhpLSA%2Fviewform%3Fusp%3Dsf_link)
+
+or run it locally
 
 ## Prerequisite
 
